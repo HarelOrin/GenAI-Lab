@@ -1,0 +1,16 @@
+.top-right-tags {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: fixed; 
+    top: 24px;
+    right: 24px;
+    gap: 8px;
+}
+
+@media (max-width: 1228px) {
+    .top-right-tags {
+        position: absolute;
+        top: 48px;
+    }
+}

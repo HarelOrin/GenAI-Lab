@@ -1,0 +1,41 @@
+.chatbot-container {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    background-color: #FAFAFA;
+    z-index: 1;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: auto;
+}
+
+.query {
+    width: 100%;
+    position: sticky;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.back-btn {
+    position: fixed;
+    top: 24px;
+    left: 24px;
+}
+
+@media (max-width: 1228px) {
+    .back-btn {
+        display : none;
+    }
+
+    .backgroundImg {
+        display: none;
+    }
+}

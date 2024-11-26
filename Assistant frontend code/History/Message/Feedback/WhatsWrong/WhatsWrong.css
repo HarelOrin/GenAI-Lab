@@ -1,0 +1,59 @@
+.whats-wrong-wrapper {
+    width: 100%;
+    margin: -12px;
+    margin-top: 12px;
+    padding: 12px;
+    padding-top: 0px;
+    border-top: 1px solid #E2E3E4;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    position: relative;
+    overflow: hidden;
+    max-height: 1000px;
+    transition: max-height 250ms linear, border 250ms linear, margin 250ms linear;
+}
+
+.whats-wrong-wrapper.hidden {
+    max-height: 0;
+    margin-top: 0px;
+    border-top: 1px solid transparent;
+
+}
+
+.whats-wrong-header {
+    margin-top: 6px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: -8px;
+}
+
+.whats-wrong-header b {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.checkbox-button {
+    border: 1px solid #E2E3E4;
+    color: #006BD6;
+    margin-right: 8px;
+    margin-left: 0px !important;
+    border-left: 1px solid #E2E3E4 !important;
+    font-size: 14px;
+    text-transform: none;
+}
+
+.checkbox-button:hover {
+    background-color: #e9f4ff;
+    border: 1px solid #E2E3E4;
+}
+
+.checkbox-button.selected {
+    background-color: #D6EBFF;
+    color: #006BD6;
+}
+
+.checkbox-button.selected:hover {
+    background-color: #D6EBFF;
+}

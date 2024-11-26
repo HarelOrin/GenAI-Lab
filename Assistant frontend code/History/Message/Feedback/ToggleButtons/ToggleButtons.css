@@ -1,0 +1,46 @@
+.custom-toggle-button {
+    border: 1px solid #E2E3E4;
+    transition: width 0.3s ease;
+    width: 70px;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    overflow: hidden;
+    color: #006BD6;
+    margin-right: 8px;
+    border-left: 1px solid #E2E3E4 !important;
+}
+
+.custom-toggle-button:hover {
+    background-color: #e9f4ff;
+    border: 1px solid #E2E3E4;
+}
+
+.custom-toggle-button.icon-only {
+    width: 43px;
+} 
+
+.custom-toggle-button.selected {
+    background-color: #D6EBFF;
+    color: #006BD6;
+}
+
+.custom-toggle-button.selected:hover {
+    background-color: #D6EBFF;
+}
+
+.button-text {
+    transition: opacity 0.3s ease;
+    font-size: 14px;
+    text-transform: none;
+    margin-left: 8px;
+}
+
+.custom-toggle-button.icon-only .button-text {
+    opacity: 0;
+    width: 0;
+    margin-left: 0;
+}

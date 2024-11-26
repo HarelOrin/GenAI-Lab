@@ -1,0 +1,22 @@
+.query-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.query-input {
+    display: flex;
+    flex-direction: row;
+    position: relative; 
+    margin-bottom: 16px;
+    margin-top: 16px;
+    width: 620px;
+}
+
+@media (max-width: 668px) {
+    .query-input {
+        width: 100%;
+        margin-bottom: 0px;
+        margin-top: 8px;
+    }
+}

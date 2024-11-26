@@ -1,0 +1,31 @@
+.examples {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.option {
+    color: #161718;
+    background-color: white;
+    font-family: Open Sans;
+    font-size: 14px;
+    border-radius: 8px;
+    padding: 12px 16px;
+    box-sizing: border-box;
+    max-width: 484px;
+    border: 1px solid #0A85FF;
+    margin-bottom: 8px;
+    margin-left: auto;
+}
+
+.option:hover {
+    cursor: pointer;
+    background-color: #D6EBFF;
+}
+
+@media (max-width: 668px) {
+    .option {
+        max-width: 100%;
+        width: 100%;
+    }
+}

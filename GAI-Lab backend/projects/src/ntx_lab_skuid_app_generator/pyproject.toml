@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "ntx-lab-skuid-app-generator"
+version = "0.1.0"
+description = "Skuid app generator for Incident management case by user prompt"
+authors = ["Eldar Nir  <eldar.nir@nintex.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+nintex-llm-skuid-app-generator = "2024.9.1000000028"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[[tool.poetry.source]]
+name = "codeartifact"
+url = "https://kryon-artifacts-869208529744.d.codeartifact.eu-central-1.amazonaws.com/pypi/kryon-pypi/simple/"
+priority = "default"

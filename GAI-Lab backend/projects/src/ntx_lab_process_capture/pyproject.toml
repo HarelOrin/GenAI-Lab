@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "ntx-lab-process-capture"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+ntx-llm-proc-capt = "2024.9.1000000009"
+kryon-pd-deepalgo = "2024.9.1000000024"
+pandas = "2.2.2"
+kryon-config-client = "2024.9.1000000021"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[[tool.poetry.source]]
+name = "codeartifact"
+url = "https://kryon-artifacts-869208529744.d.codeartifact.eu-central-1.amazonaws.com/pypi/kryon-pypi/simple/"
+priority = "default"

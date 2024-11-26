@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "ntx-lab-diagram-ingestion"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+ntx-algo-to-bpmn-converter = "2024.9.1000000001"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[[tool.poetry.source]]
+name = "codeartifact"
+url = "https://kryon-artifacts-869208529744.d.codeartifact.eu-central-1.amazonaws.com/pypi/kryon-pypi/simple/"
+priority = "default"

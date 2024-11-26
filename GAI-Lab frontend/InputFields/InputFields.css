@@ -1,0 +1,88 @@
+.inputFieldsContainer {
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+}
+
+.sectionContent {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 25px;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.description {
+    margin-top: 25px;
+    z-index: 1;
+}
+
+.first {
+    padding: 0;
+    margin-bottom: 25px;
+}
+
+.dynamicInput {
+    margin-top: auto;
+    margin-bottom: auto;
+    z-index: 1;
+}
+
+.horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.invisSection {
+    display: none;
+}
+
+.sectionTitle {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.firstTitle {
+    color: #F56900;
+    font-size: 20px;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.inputDescription {
+    font-size: 14px;
+    color: #636363;
+}
+
+@keyframes loading {
+    0% {
+        color: #636363;
+    }
+    50% {
+        color: #b3b3b3;
+    }
+    100% {
+        color: #636363;
+    }
+}
+
+.waiting {
+    font-size: 13px;
+    color: #636363;
+    animation: loading 1.5s infinite;
+}
+
+.hide {
+    opacity: 0;
+}
